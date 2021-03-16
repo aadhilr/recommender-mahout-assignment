@@ -3,12 +3,11 @@
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-
 # Get Twisted, and Klein and Redis modules for Python.
 sudo yum install python-pip
-pip install twisted
-pip install klein
-pip install redis
+sudo pip install twisted
+sudo pip install klein
+sudo pip install redis
 
 # Install Redis and start up the server
 
